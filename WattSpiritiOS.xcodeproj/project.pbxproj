@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8B9923CA2DD9403900DAC160 /* WattSpiritConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B9923C92DD9403900DAC160 /* WattSpiritConfig.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8B9923AE2DD9323C00DAC160 /* WattSpiritiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WattSpiritiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9923C92DD9403900DAC160 /* WattSpiritConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = WattSpiritConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		8B9923A52DD9323C00DAC160 = {
 			isa = PBXGroup;
 			children = (
+				8B9923C92DD9403900DAC160 /* WattSpiritConfig.xcconfig */,
 				8B9923B02DD9323C00DAC160 /* WattSpiritiOS */,
 				8B9923AF2DD9323C00DAC160 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9923CA2DD9403900DAC160 /* WattSpiritConfig.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
